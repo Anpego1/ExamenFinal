@@ -1,0 +1,40 @@
+
+@model IEnumerable<GestionProyectosConstruccion.Models.Empleado>
+
+<h2>Listado de Empleados</h2>
+<form method="get">
+    <label>Filtrar por Categoría:</label>
+    <select name="categoria">
+        <option value="">Todas</option>
+        <option>Administrador</option>
+        <option>Operario</option>
+        <option>Peón</option>
+    </select>
+    <label>Buscar por Nombre:</label>
+    <input name="nombre" />
+    <button type="submit">Filtrar</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Carnet</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Salario</th>
+            <th>Correo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var empleado in Model)
+        {
+            <tr>
+                <td>@empleado.NumeroCarnet</td>
+                <td>@empleado.Nombre</td>
+                <td>@empleado.Categoria</td>
+                <td>@empleado.Salario</td>
+                <td>@empleado.Correo</td>
+            </tr>
+        }
+    </tbody>
+</table>

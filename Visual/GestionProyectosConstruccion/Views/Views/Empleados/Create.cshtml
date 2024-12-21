@@ -1,0 +1,52 @@
+
+@model GestionProyectosConstruccion.Models.Empleado
+
+<h2>Registrar Empleado</h2>
+<form action="/Empleados/Create" method="post">
+    <div>
+        <label>Número de Carnet:</label>
+        <input name="NumeroCarnet" />
+        <span asp-validation-for="NumeroCarnet"></span>
+    </div>
+    <div>
+        <label>Nombre:</label>
+        <input name="Nombre" />
+        <span asp-validation-for="Nombre"></span>
+    </div>
+    <div>
+        <label>Fecha de Nacimiento:</label>
+        <input name="FechaNacimiento" type="date" />
+        <span asp-validation-for="FechaNacimiento"></span>
+    </div>
+    <div>
+        <label>Categoría:</label>
+        <select name="Categoria">
+            <option value="">Seleccione...</option>
+            <option>Administrador</option>
+            <option>Operario</option>
+            <option>Peón</option>
+        </select>
+        <span asp-validation-for="Categoria"></span>
+    </div>
+    <div>
+        <label>Salario:</label>
+        <input name="Salario" type="number" />
+        <span asp-validation-for="Salario"></span>
+    </div>
+    <div>
+        <label>Dirección:</label>
+        <input name="Direccion" />
+        <span asp-validation-for="Direccion"></span>
+    </div>
+    <div>
+        <label>Teléfono:</label>
+        <input name="Telefono" />
+        <span asp-validation-for="Telefono"></span>
+    </div>
+    <div>
+        <label>Correo:</label>
+        <input name="Correo" type="email" />
+        <span asp-validation-for="Correo"></span>
+    </div>
+    <button type="submit">Registrar</button>
+</form>

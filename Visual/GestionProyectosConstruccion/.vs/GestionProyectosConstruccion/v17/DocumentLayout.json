@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andyp\\OneDrive\\Escritorio\\DocsExamen\\GestionProyectosConstruccion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE56241-4B92-4C27-9E31-A4CC694E7E8E}|GestionProyectosConstruccion.csproj|c:\\users\\andyp\\onedrive\\escritorio\\docsexamen\\gestionproyectosconstruccion\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE56241-4B92-4C27-9E31-A4CC694E7E8E}|GestionProyectosConstruccion.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE56241-4B92-4C27-9E31-A4CC694E7E8E}|GestionProyectosConstruccion.csproj|c:\\users\\andyp\\onedrive\\escritorio\\docsexamen\\gestionproyectosconstruccion\\scripts\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0EE56241-4B92-4C27-9E31-A4CC694E7E8E}|GestionProyectosConstruccion.csproj|solutionrelative:scripts\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Andyp\\OneDrive\\Escritorio\\DocsExamen\\GestionProyectosConstruccion\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\Andyp\\OneDrive\\Escritorio\\DocsExamen\\GestionProyectosConstruccion\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:51:23.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\Andyp\\OneDrive\\Escritorio\\DocsExamen\\GestionProyectosConstruccion\\Scripts\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "Scripts\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\Andyp\\OneDrive\\Escritorio\\DocsExamen\\GestionProyectosConstruccion\\Scripts\\bootstrap.bundle.js",
+              "RelativeToolTip": "Scripts\\bootstrap.bundle.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-21T02:50:06.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
